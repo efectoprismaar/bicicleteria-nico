@@ -1,7 +1,7 @@
 // /app/api/products/route.ts
 export async function GET() {
   const response = await fetch(
-    "https://api.airtable.com/v0/appMi9Wd8htNj5zec./Products",
+    "https://api.airtable.com/v0/appMi9Wd8htNj5zec./Productos",
     {
       headers: {
         Authorization: `Bearer ${process.env.AIRTABLE_TOKEN}`,
